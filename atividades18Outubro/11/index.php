@@ -25,7 +25,7 @@
 		<form action="processamento.php" method="POST">
 			Primeiro Número: <input type="number" name="primeiro"> <br>
 			Segundo Número: <input type="number" name="segundo"> <br>
-			Terceiro Número: <input type="number" name="terceiro">
+			Terceiro Número: <input type="text" name="terceiro">
 			<input type="submit" value="enviar">
 		</form>
 
