@@ -44,7 +44,7 @@
 
         if($numero3 < $numero1){
             if($numero3 < $numero2){
-                $menor = $numero2;
+                $menor = $numero3;
             }
         }  
 
