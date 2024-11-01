@@ -26,7 +26,7 @@
 
         if($numero3 > $numero1){
             if($numero3 > $numero2){
-                $maior = $numero2;
+                $maior = $numero3;
             }
         }  
 
