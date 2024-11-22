@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <title>MEU SITE DAORA</title>
     <link rel="shortcut icon" type="image/x-icon" href="./?getimg=favicon" />
@@ -14,22 +13,15 @@
             padding: 0px;
         }
     </style>
-
 </head>
-
 <body>
     <center>
-        <h1>Determinar Menor, Maior e Soma (apenas entre 0 e 1000)</h1>
+        <h1>Calcular Fatorial</h1>
         <form action="processamento.php" method="post">
-            <label for="numeros">Digite os números separados por vírgula (entre 0 e 1000):</label>
-            <input type="text" id="numeros" name="numeros" required>
-            <button type="submit">Calcular</button>
+            <label for="numero">Digite um número inteiro (entre 0 e 15):</label>
+            <input type="number" id="numero" name="numero" min="0" max="15" required>
+            <button type="submit">Calcular Fatorial</button>
         </form>
-
-
-
     </center>
-
 </body>
-
 </html>
