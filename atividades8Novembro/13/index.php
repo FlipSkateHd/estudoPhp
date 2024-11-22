@@ -21,7 +21,7 @@
 	<center>
 
 		<h1>magia</h1>
-		<p>Contando numeros:</p>
+		<p>Gerador de tabuada:</p>
 		<form action="processamento.php" method="POST">
 			Insira o numero: <input type="number" name="numero1"> <br>
 			Insira o numero: <input type="number" name="numero2"> <br>

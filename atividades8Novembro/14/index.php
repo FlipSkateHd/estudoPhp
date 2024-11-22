@@ -14,23 +14,26 @@
 			padding: 0px;
 		}
 	</style>
-
 </head>
 
 <body>
 	<center>
-
 		<h1>magia</h1>
-		<p>Contando numeros:</p>
-		<form action="processamento.php" method="POST">
-			Insira o numero: <input type="number" name="numero1"> <br>
-			Insira o numero: <input type="number" name="numero2"> <br>
-			<input type="submit" value="enviar">
+		<p>Preencha com os números:</p>
+
+		<form method="POST" action="processamento.php">
+			<?php
+				
+				for ($i = 1; $i <= 10; $i++) {
+					echo "<label for='numero{$i}'>Digite o {$i}º número: </label>";
+					echo "<input type='number' name='numero{$i}' id='numero{$i}' required><br>";
+				}
+			?>
+			<input type="submit" value="Enviar">
 		</form>
 
 
 	</center>
-
 </body>
 
 </html>
