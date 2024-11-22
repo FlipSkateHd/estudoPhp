@@ -21,12 +21,23 @@
 	<center>
 
 		<h1>magia</h1>
-		<p>Contando numeros:</p>
-		<form action="processamento.php" method="POST">
-			Insira o numero: <input type="number" name="numero1"> <br>
-			Insira o numero: <input type="number" name="numero2"> <br>
-			<input type="submit" value="enviar">
-		</form>
+		<p>Gerador de fibonacci:</p>
+		<?php
+
+$a = 0;
+$b = 1;
+for ($i = 0; $i < 15; $i++) {
+	echo $a . " ";
+	$temp = $a;
+	$a = $b;
+	$b = $temp + $b;
+}
+
+
+
+
+
+?>
 
 
 	</center>
